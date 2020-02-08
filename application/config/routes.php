@@ -2,17 +2,17 @@
 
 return [
 
-    'blog/account/login' => [
+    'account/login' => [
         'controller' => 'account',
         'action' => 'login',
     ],
 
-    'blog/news/show' => [
+    'news/show' => [
         'controller' => 'news',
         'action' => 'show',
     ],
 
-    '/blog' => [
+    '' => [
         'controller' => 'main',
         'action' => 'index',
     ],
